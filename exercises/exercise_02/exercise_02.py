@@ -5,3 +5,11 @@
 # Hint: Use f-strings to combine text and variables: f"Hello, {variable}!"
 
 # Write your code below:
+
+#Option 1 
+name = "Leticia"
+print(f"Hello, {name}! Welcome to Python.")
+
+#Option 2
+name = "Leticia"
+print("Hello, " + name + "! Welcome to Python.")

@@ -14,8 +14,8 @@
 # Print the personalized message
 
 name = input("What's your name?")
-age = input("What's your age?")
+age = int(input("How old are you?"))
 current_year = 2025
-birth_year = current_year - int(age)
+birth_year = current_year - age
 
 print(f'Hello, {name}! You are {age} years old and were born around {birth_year}')

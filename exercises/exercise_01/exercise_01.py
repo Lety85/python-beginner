@@ -5,3 +5,5 @@
 # Hint: Strings must be enclosed in quotes
 
 # Write your code below:
+
+print("Hello, Word!")

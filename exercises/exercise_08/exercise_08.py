@@ -7,4 +7,9 @@
 
 # Get number from user
 
+number = int(input("Enter a number: "))
+
 # Loop from 1 to 10 and print each multiplication
+
+for i in range(1,11):
+    print(f'{number} x {i} = {number * i}')

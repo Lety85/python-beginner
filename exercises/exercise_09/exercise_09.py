@@ -8,8 +8,19 @@
 
 # Get N from user
 
+number = int(input("Enter a positive number: "))
+
 # Initialize counter and total
+
+total = 0
+counter = 1
 
 # Use while loop to calculate sum
 
+while counter <= number:
+    total += counter
+    counter += 1
+
 # Print the result
+
+print(f'The sum of numbers from 1 to {number} is {total}')

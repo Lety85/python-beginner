@@ -7,4 +7,11 @@
 
 # Get number from user
 
+number = int(input("Enter a number: "))
+
 # Check if even or odd and print result
+
+if number % 2 == 0:
+    print(f'{number} is even.')
+else:
+    print(f'{number} is odd.')

@@ -6,16 +6,11 @@
 # Hint: Current year is 2025
 
 # Get user's name
-
-# Get user's age (remember to convert to integer)
-
-# Calculate birth year
-
-# Print the personalized message
-
 name = input("What's your name?")
+# Get user's age (remember to convert to integer)
 age = int(input("How old are you?"))
+# Calculate birth year
 current_year = 2025
 birth_year = current_year - age
-
+# Print the personalized message
 print(f'Hello, {name}! You are {age} years old and were born around {birth_year}')

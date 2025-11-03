@@ -17,6 +17,6 @@ text_cleaned = text.replace(" ", "").lower()
 if text_cleaned == text_cleaned[::-1]:
     print(f'"{text_cleaned}" is a palindrome!')
 else:
-    print(f'"{text_cleaned}" is not a plaindrome.')
+    print(f'"{text_cleaned}" is not a palindrome.')
 
 # Display result

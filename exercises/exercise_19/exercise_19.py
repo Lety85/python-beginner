@@ -8,12 +8,15 @@
 # Hint: For advanced: use .isalnum() to keep only letters/numbers
 
 # Get input from user
-
+text = input("Enter a word or phrase: ")
 
 # Clean the text (remove spaces, convert to lowercase)
-
+text_cleaned = text.replace(" ", "").lower()
 
 # Check if palindrome (compare with reversed version)
-
+if text_cleaned == text_cleaned[::-1]:
+    print(f'"{text_cleaned}" is a palindrome!')
+else:
+    print(f'"{text_cleaned}" is not a plaindrome.')
 
 # Display result
